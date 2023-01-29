@@ -1,0 +1,182 @@
+
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    font-family:sans-serif;
+}
+
+
+/* a{
+    text-decoration: none;
+    color: inherit;
+} */
+/* header{
+    background-color:inherit;
+    
+} */
+/* 
+.main1{
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;   
+} 
+
+
+.row-row{
+
+    display: inline;
+    
+}
+.logo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}*/
+
+
+.img{
+   
+    background: url("../img/homepage-background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    color: white;
+} 
+.background{
+    background-color: rgba(66, 184, 253, 0.914);
+    padding: 37px;
+    justify-content: center;
+    display: flex;
+    
+}
+.inHead{
+    display: grid;
+    grid-template-columns: repeat(2, 394px);
+    gap: 64px;
+    margin-left: 150px;
+}
+
+.blue{
+    /* height: inherit; */
+    background-color: rgba(66, 184, 253, 0.945);
+}
+
+.text{
+
+    color: aliceblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: left;
+}
+
+.form{
+    width: 240px;
+    background-color: rgba(220, 233, 241, 0.343);
+    height: 259px;
+    text-align: left;
+    padding: 15px;
+    
+}
+label{
+    font-size: 13px;
+}
+.header1{
+    box-sizing: content-box;
+    width: 500px;
+
+
+}
+p{
+    padding-bottom: 5px;
+}
+.head{
+    width: 253px;
+}
+input{
+    border:none;
+    line-height: 2;
+    margin-bottom: 9px;
+    width: 100%;
+
+}
+.btn{
+    border: none;
+    background: orange;
+    color: white;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    line-height: 2;
+    margin-top: 22px;
+}
+.mainHeader{
+    white-space: pre-line;
+}
+.spanForm{
+    text-align: center;
+    font-size: 8px;
+    white-space: nowrap;
+
+}
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    
+  }
+  .cardItem {
+    border: 1px rgba(0, 0, 0, 0.168) solid;
+    display: contents;
+  }
+  .cards{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 223px);
+    gap: 30px;
+    justify-content: center;
+  }
+.backgroundEnd{
+    background: rgba(128, 128, 128, 0.331);
+}
+.deatails{
+    display: flex;
+    justify-content: center;
+}
+.mainFooter{
+    padding: 40px;
+    grid-template-columns: repeat(1, 550px);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+.userImg{
+    text-align: center;
+    margin-top: 20px;
+}
+.divDetails{
+    border-right-style: groove;
+    margin-left: 10px;
+}
+.divDetails > span{
+    margin: 5px;
+
+}
+@media (max-width: 700px) {
+    .cards {
+      grid-template-columns: repeat(1, 223px);
+    }
+    .inHead{
+        display: grid;
+        grid-template-columns: repeat(1,500px);
+        justify-items: center;
+        margin-left: 0px;
+    }
+    .header1{
+        display: grid;
+        justify-content: flex-end;
+        width: min-content;
+    }
+  }
+
